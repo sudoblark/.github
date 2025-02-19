@@ -1,4 +1,11 @@
-# Structure
+# Hello there :unicorn:
+
+![Potato](../docs/logo.jpeg)
+
+This is the organisation GitHub for [sudoblark](https://sudoblark.com).
+
+It can get quite busy round here, so here's a rough guide to the repo structure:
+
 - `sudoblark.terraform.module` repos are data-structure and algorithm driven Terraform components, allowing creation of
 `n` instances of their respective domain(s) of interest via an extensible, mutable, data structure.
 - [sudoblark.monsternames.api](https://github.com/sudoblark/sudoblark.monsternames.api) is a simple, open source, RESTAPI utilising the data-structure
