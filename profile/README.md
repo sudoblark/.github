@@ -27,7 +27,7 @@ All projects follow clear versioning, semantic releases, and automation-first pr
 | [`terraform.github`](https://github.com/sudoblark/sudoblark.terraform.github) | Manage GitHub orgs, repos, and teams via Terraform |
 | [`python.github-cli`](https://github.com/sudoblark/sudoblark.python.github-cli) | CLI for GitHub org automation using Python |
 | [`github-actions.library`](https://github.com/sudoblark/sudoblark.github-actions.library) | Library of GitHub Actions for pipelines, IaC, and automation |
-| [`monsternames-api`](https://github.com/sudoblark/monsternames-api) | Demo API fully deployed with Terraform + GitHub Actions |
+[`sudoblark.monsternames.api`](https://github.com/sudoblark/sudoblark.monsternames.api) | Demo API fully deployed with Terraform + GitHub Actions |
 
 ---
 
