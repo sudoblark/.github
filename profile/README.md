@@ -1,44 +1,53 @@
-# Hello there :unicorn:
+# 🛠️ Sudoblark · DevOps Automation & Infrastructure as Code
 
-![Potato](../docs/logo.jpeg)
+**Sudoblark Ltd** is a UK-based consultancy delivering high-performance **DevOps automation**, **Infrastructure-as-Code**, and **developer tooling**.  
+We help organisations scale CI/CD, modernise platforms, and embed long-term engineering maturity.
 
-This is the organisation GitHub for [sudoblark](https://sudoblark.com).
+> 👤 Founded by [Benjamin Luke Clark](https://github.com/benjaminlukeclark) — DevOps Engineer with 10+ years experience across Formula 1, Siemens, and UK Government.
 
-It can get quite busy round here, so here's a rough guide to the repo structure:
+🌐 [sudoblark.com](https://sudoblark.com) • 📦 [Terraform Modules](https://github.com/sudoblark?tab=repositories&q=terraform) • 🧱 [GitHub Actions](https://github.com/sudoblark.github-actions.library)
 
-## Terraform
+---
 
-> **NOTE**: The concept of terraform with data-structures and algorithms is one mentioned often in talks by Sudoblark,
-> thus the repos below are a useful additional reference for those whom have attended such a talk and are interested
-> in exploring the pattern in more depth
+## 🚀 What We Build
 
-- `sudoblark.terraform.module` repos are data-structure and algorithm driven Terraform components, allowing creation of
-`n` instances of their respective domain(s) of interest via an extensible, mutable, data structure.
-- [sudoblark.terraform.github](https://github.com/sudoblark/sudoblark.terraform.github) is a realisation of the Terraform data-structure and algorithm driven principles,
-but rather than as re-usable component, or a grouping of such components to fulfill a use-case, it is a mono-repo
-for the management of all of Sudoblark's GitHub.
-- [sudoblark.terraform.modularised-demo](https://github.com/sudoblark/sudoblark.terraform.modularised-demo) is a demo of the data-structure and algorithm driven Terraform principles
-with a simpler setup than [sudoblark.monsternames.api](https://github.com/sudoblark/sudoblark.monsternames.api).
-  - It is also the first port of call for demos of other features, such as CI/CD operational models.
-  - This also shows an example of Continuous Deployment within GitHub Actions
+- 🔧 **Modular Terraform**: For GitHub orgs, AWS/Azure infra, and dev enablement
+- 🧪 **Reusable GitHub Actions**: Standardised pipelines and deployment patterns
+- 🐍 **Python CLIs & SDKs**: For automation, GitHub management, and platform ops
+- ⚙️ **Demo Projects**: Full-stack apps with real CI/CD and IaC patterns
 
-## Python
-- [sudoblark.python.github-cli](https://github.com/sudoblark/sudoblark.python.github-cli) is a CLI
-application intended to facilitate interaction with GitHub within a CLI setting. Primarily,
-this is used to plug gaps in CI/CD Platforms via the "CI/CD CLI Tooling" pattern outlined in
-various talks by Sudoblark.
-- [sudoblark.python.core](https://github.com/sudoblark/sudoblark.python.core) is a core
-Python library of re-usable components, with extensive - online - documentation to boot, and
-is available on PyPI. It forms one anchor of the usage of internal CLI tooling to plug
-gaps in CI/CD platform for organisations, and helps decouple core business logic
-from any particular platform limitations or tooling.
-  - It also shows usage of behave! within pipelines, and automatic documentation generation.
-  - This also shows an example of Continuous Delivery within GitHub Actions
-- [sudoblark.monsternames.api](https://github.com/sudoblark/sudoblark.monsternames.api) is a simple, open source, RESTAPI 
-utilising the data-structure and algorithm driven Terraform approach to create a 
-RESTAPI available on the web.
+All projects follow clear versioning, semantic releases, and automation-first principles.
 
-## GitHub Actions
-- [sudoblark.github-actions.library](https://github.com/sudoblark/sudoblark.github-actions.library) is a template library of re-usable components for usage in GitHub Actions,
-see the aforementioned [sudoblark.terraform.modularised-demo](https://github.com/sudoblark/sudoblark.terraform.modularised-demo) for how this may be utilised in a pull pattern
-for CI/CD - a CI/CD pattern for component reused outlined in various talks by Sudoblark.
+---
+
+## 📦 Featured Projects
+
+| Repo | Description |
+|------|-------------|
+| [`terraform.github`](https://github.com/sudoblark/sudoblark.terraform.github) | Manage GitHub orgs, repos, and teams via Terraform |
+| [`python.github-cli`](https://github.com/sudoblark/sudoblark.python.github-cli) | CLI for GitHub org automation using Python |
+| [`github-actions.library`](https://github.com/sudoblark/sudoblark.github-actions.library) | Library of GitHub Actions for pipelines, IaC, and automation |
+| [`monsternames-api`](https://github.com/sudoblark/monsternames-api) | Demo API fully deployed with Terraform + GitHub Actions |
+
+---
+
+## 🧑‍💼 Clients & Background
+
+Sudoblark-led DevOps initiatives have powered platforms at:
+
+- 🏎️ **Formula 1** — Mission-critical telemetry and CI/CD transformation
+
+---
+
+## 📢 Community & Talks
+
+🎤 **DTX Manchester 2025**  
+🎤 **DevOps Society 2024–2025**  
+🧑‍🏫 [sudoblark.com/blog](https://sudoblark.com/blog)
+
+---
+
+## 🤝 Contributing
+
+This org is actively maintained but not open for general PRs.  
+If you're interested in contributing or collaborating, [get in touch](https://sudoblark.com/contact) or open a discussion!
