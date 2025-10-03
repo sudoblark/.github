@@ -29,16 +29,6 @@ All projects follow clear versioning, semantic releases, and automation-first pr
 | [`github-actions.library`](https://github.com/sudoblark/sudoblark.github-actions.library) | Library of GitHub Actions for pipelines, IaC, and automation |
 [`sudoblark.monsternames.api`](https://github.com/sudoblark/sudoblark.monsternames.api) | Demo API fully deployed with Terraform + GitHub Actions |
 
----
-
-## 🧑‍💼 Clients & Background
-
-Sudoblark-led DevOps initiatives have powered platforms at:
-
-- 🏎️ **Formula 1** — Mission-critical telemetry and CI/CD transformation
-
----
-
 ## 📢 Community & Talks
 
 🎤 **DTX Manchester 2025**  
