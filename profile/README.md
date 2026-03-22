@@ -1,30 +1,48 @@
 # Sudoblark
 
-**First-principles software engineering from Manchester, UK**
+**Agentic AI · Platform Engineering · Full-Stack — from Manchester, UK**
 
-We build DevOps automation, Infrastructure-as-Code, and Python software for organisations that need to scale platforms and embed engineering maturity. Direct communication, documentation-first delivery, multi-disciplined capability.
+Sudoblark designs and builds agentic AI systems, production-grade application code, and the infrastructure to run and secure it all. Multi-disciplined capability end to end: no handoffs, no gaps.
 
 ---
 
 ## What We Build
 
+**Agentic AI Systems**  
+Autonomous AI agents using Amazon Bedrock and pydantic-ai — classification pipelines, RAG systems, semantic search via embeddings, and natural language interfaces over structured data.
+
 **Platform Engineering Foundation**  
-Production-grade AWS and GitHub infrastructure delivered in days. Multi-account AWS with SSO, Terraform three-tier architecture, GitHub organization management, and CI/CD pipelines.
+Production-grade AWS infrastructure delivered fast. Multi-account AWS with SSO, Terraform three-tier architecture, GitHub organisation management, WAF-protected APIs, and CI/CD pipelines with full quality and security gates.
 
-**Infrastructure Modernization**  
-Cloud migrations, Kubernetes deployments, and CI/CD transformation. Infrastructure-as-Code patterns for AWS/Azure with modular Terraform and reusable GitHub Actions.
+**Serverless Data Platforms**  
+Multi-tier data lakes (S3, Glue, Athena, DynamoDB), event-driven Step Functions pipelines, and Snowflake integration — built with OWASP controls and documented to hand-off standard.
 
-**Backend Systems**  
-Service reliability, data consistency, and performance under load. Python-based solutions for platform operations and automation.
-
-**Technical Documentation**  
-Complete operational runbooks and architectural documentation as first-class deliverables. Your team maintains what we build.
+**Backend & Full-Stack**  
+Python APIs on ECS Fargate, Cognito-authenticated frontends, OpenAPI-first design, and automated test coverage. Documentation-first delivery — your team maintains what we build.
 
 ---
 
-## Community Engagement
+## Open Source
 
-**DTX Manchester 2025 onwards**  
-**DevOps Society 2024 onwards**
+| Repository | Description |
+|---|---|
+| [`sudoblark.ai.bookshelf-demo`](https://github.com/sudoblark/sudoblark.ai.bookshelf-demo) | Agentic AI platform (in development): autonomous ingestion pipeline, Bedrock-powered recommendations, semantic search, Cognito frontend |
+| [`sudoblark.monsternames.api`](https://github.com/sudoblark/sudoblark.monsternames.api) | Serverless REST API — Lambda, DynamoDB, API Gateway — fully deployed with Terraform + GitHub Actions |
+| [`sudoblark.github-actions.library`](https://github.com/sudoblark/sudoblark.github-actions.library) | Reusable GitHub Actions following semver and engineering best practices |
+| [`sudoblark.terraform.github`](https://github.com/sudoblark/sudoblark.terraform.github) | Manage GitHub organisations and repositories as code with modular Terraform |
 
-[sudoblark.com](https://sudoblark.com) • [blog](https://sudoblark.com/blog)
+---
+
+## Community & Speaking
+
+| Date | Talk | Venue |
+|---|---|---|
+| Mar 2026 | Event-Driven AI-Vision Inference with Bedrock | DevOps Society |
+| Oct 2025 | A Hands-On Introduction to Quantisation | DevOps Society |
+| Apr 2025 | Data-Driven Terraform for Developers and Users | DTX Manchester |
+| Mar 2025 | CI/CD at Scale | DevOps Society |
+| Nov 2024 | Data-Driven Terraform for Developers and Users | DevOps Society |
+
+---
+
+[sudoblark.com](https://sudoblark.com) • [blog](https://sudoblark.com/blog) • [LinkedIn](https://www.linkedin.com/company/sudoblark)
