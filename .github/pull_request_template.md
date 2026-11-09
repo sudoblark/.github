@@ -1,27 +1,25 @@
 # Description
 
-Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
+<!-- One short paragraph on what changed and why, then a line per area it touches. The detail lives in the commits and the ticket. Add screenshots if it changes something visual. -->
 
 Fixes # (issue)
 
 ## Type of change
 
-Please delete options that are not relevant.
+<!-- Delete the options that don't apply. -->
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] Bug fix: a non-breaking change that fixes an issue (patch)
+- [ ] New feature: a non-breaking change that adds functionality (minor)
+- [ ] Breaking change: a fix or feature that changes existing behaviour (major)
 - [ ] This change requires a documentation update
 
 # How Has This Been Tested?
 
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+<!-- Point at CI rather than restating it, and add anything CI doesn't cover. For a bug fix, include the steps that reproduced the bug. -->
 
-- [ ] Test A
-- [ ] Test B
+See CI.
 
 # Checklist:
 
-- [] My code follows the style guidelines of this project
-- [] I have made corresponding changes to the documentation
-
+- [ ] My code follows the style guidelines of this project
+- [ ] I have made corresponding changes to the documentation
